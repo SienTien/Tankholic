@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Tankholic</string>
+    <string name="title_activity_choose_coral">Choose Coral</string>
+
+
+    <string-array name="spinBudget">
+        <item>$500-1,000"</item>
+        <item>$1,000-2,000</item>
+        <item>$2,000-5,000</item>
+        <item>$5,000-10,000</item>
+    </string-array>
+    <string-array name="spinType">
+        <item>Coral Reef Tank</item>
+        <item>Fish Only Tank</item>
+    </string-array>
+
+    <string-array name="size1">
+        <item>Goby</item>
+        <item>Tang</item>
+        <item>Angel Fish</item>
+        <item>Blenny</item>
+        <item>Foxface</item>
+        <item>Anthias</item>
+        <item>Hawkfish</item>
+        <item>Grouper</item>
+        <item>Wrasse</item>
+    </string-array>
+    <string name="title_activity_welcome">welcome</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_result">About Your Tank</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

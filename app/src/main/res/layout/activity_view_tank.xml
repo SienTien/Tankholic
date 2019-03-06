@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/main_bg"
+    tools:context=".view_tank">
+
+    <ImageButton
+        android:id="@+id/newtank"
+        android:layout_width="233dp"
+        android:layout_height="134dp"
+        android:layout_centerInParent="true"
+        android:background="#000000"
+        android:onClick="onClick"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/newtank_btn" />
+
+    <ImageButton
+        android:id="@+id/viewtank"
+        android:layout_width="233dp"
+        android:layout_height="134dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="#000000"
+        android:onClick="onClick"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/viewtank_btn" />
+
+    <ImageButton
+        android:id="@+id/web"
+        android:layout_width="233dp"
+        android:layout_height="133dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:background="#000000"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/web" />
+</RelativeLayout>
